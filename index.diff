@@ -1,0 +1,13 @@
+diff --git a/index.php b/index.php
+index e95ce11..2cd4690 100755
+--- a/index.php
++++ b/index.php
+@@ -76,7 +76,7 @@ try {
+ }
+ 
+ try {
+-	$config = new \UpdateServer\Config(__DIR__ . '/config/config.php');
++	$config = new \UpdateServer\Config(__DIR__ . '/../octopuce-config.php');
+ } catch (\RuntimeException $e) {
+ 	exit();
+ }
